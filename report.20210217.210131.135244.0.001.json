@@ -1,0 +1,468 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210217.210131.135244.0.001.json",
+    "dumpEventTime": "2021-02-17T21:01:31Z",
+    "dumpEventTimeStamp": "1613584891772",
+    "processId": 135244,
+    "cwd": "D:\\projects\\Nextjs\\airbnb-clone",
+    "commandLine": [
+      "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\node\\bin\\node.exe",
+      "D:\\projects\\Nextjs\\airbnb-clone\\node_modules\\.bin\\\\..\\next\\dist\\bin\\next",
+      "dev",
+      "-p",
+      "5000"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz",
+        "speed": 2395,
+        "user": 9545046,
+        "nice": 0,
+        "sys": 11906765,
+        "idle": 37675937,
+        "irq": 464828
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz",
+        "speed": 2395,
+        "user": 8441437,
+        "nice": 0,
+        "sys": 17245343,
+        "idle": 33440703,
+        "irq": 70781
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz",
+        "speed": 2395,
+        "user": 12732359,
+        "nice": 0,
+        "sys": 17153328,
+        "idle": 29241796,
+        "irq": 44968
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz",
+        "speed": 2395,
+        "user": 10494015,
+        "nice": 0,
+        "sys": 8507890,
+        "idle": 40125578,
+        "irq": 28515
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz",
+        "speed": 2395,
+        "user": 11362546,
+        "nice": 0,
+        "sys": 15261265,
+        "idle": 32503671,
+        "irq": 40296
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz",
+        "speed": 2395,
+        "user": 10380750,
+        "nice": 0,
+        "sys": 8487750,
+        "idle": 40258984,
+        "irq": 30234
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz",
+        "speed": 2395,
+        "user": 13185250,
+        "nice": 0,
+        "sys": 12098031,
+        "idle": 33844203,
+        "irq": 29328
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz",
+        "speed": 2395,
+        "user": 13043515,
+        "nice": 0,
+        "sys": 7726125,
+        "idle": 38357843,
+        "irq": 49515
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Local Area Connection* 2",
+        "internal": false,
+        "mac": "a4:17:31:2e:02:52",
+        "address": "fe80::c08e:83ab:9da0:f158",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      },
+      {
+        "name": "Local Area Connection* 2",
+        "internal": false,
+        "mac": "a4:17:31:2e:02:52",
+        "address": "192.168.137.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Donnie"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7f2c81729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff7f2c85b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff7f2c84b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff7f2d7369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff7f35782de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7f3560321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff7f342dbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7f3438f90",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff7f3435ac4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff7f342b353",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff7f3429b24",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff7f3443c2e",
+      "symbol": "v8::internal::Factory::AllocateRawFixedArray+94"
+    },
+    {
+      "pc": "0x00007ff7f344afc4",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+52"
+    },
+    {
+      "pc": "0x00007ff7f344af81",
+      "symbol": "v8::internal::Factory::NewUninitializedFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff7f332bdaf",
+      "symbol": "v8::Object::GetIsolate+6767"
+    },
+    {
+      "pc": "0x00007ff7f31df13a",
+      "symbol": "v8::internal::OrderedHashMap::ValueAt+61274"
+    },
+    {
+      "pc": "0x00007ff7f39a404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x000003efb53998c1",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2197561344,
+    "totalCommittedMemory": 2197561344,
+    "usedMemory": 2127124432,
+    "availableMemory": 63772320,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 6250232,
+        "available": 10509576
+      },
+      "old_space": {
+        "memorySize": 1522642944,
+        "committedMemory": 1522642944,
+        "capacity": 1519425968,
+        "used": 1483406560,
+        "available": 36019408
+      },
+      "code_space": {
+        "memorySize": 4620288,
+        "committedMemory": 4620288,
+        "capacity": 3949888,
+        "used": 3949888,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 8392704,
+        "committedMemory": 8392704,
+        "capacity": 6447840,
+        "used": 6447840,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 626892800,
+        "committedMemory": 626892800,
+        "capacity": 625940368,
+        "used": 625940368,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 1196032,
+        "committedMemory": 1196032,
+        "capacity": 1097248,
+        "used": 1097248,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1558.75,
+    "kernelCpuSeconds": 86.218,
+    "cpuConsumptionPercent": 21.5395,
+    "maxRss": 2203222016,
+    "pageFaults": {
+      "IORequired": 15272558,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 45666,
+      "writes": 2402
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\",
+    "=D:": "D:\\projects\\Nextjs\\airbnb-clone",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\hp\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DONNIE",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "dp0": "D:\\projects\\Nextjs\\airbnb-clone\\node_modules\\.bin\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GOOGLE_API_KEY": "no",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\hp",
+    "INIT_CWD": "D:\\projects\\Nextjs\\airbnb-clone",
+    "IntelliJ IDEA Community Edition": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.3\\bin;",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_261",
+    "KMP_BLOCKTIME": "0",
+    "LOCALAPPDATA": "C:\\Users\\hp\\AppData\\Local",
+    "LOGONSERVER": "\\\\DONNIE",
+    "NODE": "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\node\\bin\\node.exe",
+    "NODE_ENV": "development",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.10 npm/? node/v12.14.0 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "dev",
+    "npm_lifecycle_script": "next dev -p 5000",
+    "npm_node_execpath": "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\node\\bin\\node.exe",
+    "npm_package_dependencies_axios": "^0.21.1",
+    "npm_package_dependencies_express": "^4.17.1",
+    "npm_package_dependencies_next": "10.0.6",
+    "npm_package_dependencies_react": "17.0.1",
+    "npm_package_dependencies_react_dom": "17.0.1",
+    "npm_package_dependencies_sass": "^1.32.6",
+    "npm_package_dependencies__material_ui_core": "^4.11.3",
+    "npm_package_dependencies__material_ui_icons": "^4.11.2",
+    "npm_package_description": "First, run the development server:",
+    "npm_package_name": "airbnb-clone",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_build": "next build",
+    "npm_package_scripts_dev": "next dev -p 5000",
+    "npm_package_scripts_start": "next start ",
+    "npm_package_version": "0.1.0",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OMP_WAIT_POLICY": "PASSIVE",
+    "OneDrive": "C:\\Users\\hp\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\hp\\AppData\\Local\\Temp\\yarn--1613577271136-0.2192707587642917;D:\\projects\\Nextjs\\airbnb-clone\\node_modules\\.bin;C:\\Users\\hp\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Users\\hp\\AppData\\Local\\Yarn\\bin;C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\node\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\node\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\node\\bin\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Java\\jdk1.8.0_261\\bin;C:\\Gradle\\gradle-6.6.1\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\hp\\AppData\\Roaming\\npm;C:\\Users\\hp\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;D:\\tutorials\\Flutter\\flutter\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.3\\bin;;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3a09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SNE": "https://feed.sonic-search.com/?publisher=APSFWemonetize&co=ZA&userid=ac24fa88-ea9b-8819-b253-8205e00836dd&searchtype=ds&q={searchTerms}&installDate=13/08/2020&barcodeid=51557004&channelid=4&av=avast& --load-extension=\"C:\\Users\\hp\\AppData\\Local\\app\"",
+    "SNF": "C:\\ProgramData\\Voyasollams\\snp.sc",
+    "SNP": "https://%66%65%65%64.%68%65%6C%70%65%72%62%61%72.%63%6F%6D?publisher=APSFWemonetize&co=ZA&userid=ac24fa88-ea9b-8819-b253-8205e00836dd&searchtype=sc&installDate=13/08/2020&barcodeid=51557004&channelid=4&av=avast",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\hp\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\hp\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DONNIE",
+    "USERDOMAIN_ROAMINGPROFILE": "DONNIE",
+    "USERNAME": "hp",
+    "USERPROFILE": "C:\\Users\\hp",
+    "windir": "C:\\Windows",
+    "YARN_WRAP_OUTPUT": "false",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\node\\bin\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll"
+  ]
+}

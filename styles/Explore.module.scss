@@ -1,0 +1,61 @@
+// .explore_header{
+//     font-size: 30px;
+// }
+
+// .explore_results{
+//     border-bottom: 1px solid lightgray;
+//     display: flex;
+//     margin-left: 20px;
+//     padding: 10px;
+//     padding-bottom: 20px;
+//     cursor: pointer;
+//     &:hover{
+//         opacity: 0.8;
+//     }
+//     img{
+//         height: 250px;
+//     width: 350px;
+//         border-radius: 20px;
+//     }
+//     .explore_section{
+//         padding-left: 20px;
+     
+//         justify-content: space-between;
+        
+//         .expore_results_top{}
+
+//         .explore_results_bottom{
+//             display: flex;
+//             flex: 1;
+//             justify-content: space-between;
+//             align-items: center;
+           
+//             .explore_ratings{
+//                 display: flex;
+//                 align-items: center;
+//             }
+//             .price{}
+//         }
+//     }
+  
+// }
+
+
+.explore_cards_container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform: flex-wrap 500ms ease-in ;
+    transition: 1s;
+}
+
+
+.explore_header{
+    padding-left:30px ;
+    border-bottom: 1px solid lightgray;
+    h2{
+        font-size: 2.5em;
+    }
+}

@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
+// .navbar{
+
+//     display: flex;
+//     align-items: center;
+//     place-content: space-between;
+//     padding-left: 80px;
+//     padding-right: 80px;
+//     padding-top: 20px;
+//     padding-bottom: 20px;
+//     z-index: 100;
+//     position: sticky;
+//     top: 0;
+//     box-shadow: 1px 1px 10px 1px lightgray;
+//     background-color: white;
+//     min-width: 100%;
+
+//     .logo_section{
+//         font-family: 'Devonshire', cursive;
+        
+//         p{
+//             font-size: 50px;
+//             margin: 0;
+//             color: #FF385C;
+//         }
+//     }
+//     .brand_logo{
+//         // object-fit: contain;
+//         // cursor: pointer;
+//     // height: 80px;
+   
+    
+//     }
+
+//     .navbar_search {
+//         display: flex;
+//         align-items: center;
+
+//     border: 1px solid rgb(212, 212, 212);
+//     border-radius: 80px; 
+//     padding-left: 20px;
+//     height: 65px;   
+//     max-width: fit-content;  
+//     input{
+//         width: 300px;
+//         height: 40px;
+//         border: none;
+//         outline: none;
+//         font-size: 20px;
+//         background-color:transparent;
+//         font-weight: 600;
+//         color: black;
+//     }
+//     .search_section{
+//         background-color: #FF385C;
+//         margin-right:10px ;
+//         border-radius: 50%;
+//         display: flex;
+//         align-items: center;
+ 
+//         padding: 10px;
+//         .searchIcon{
+//             color: white;
+//         }
+//     }
+// }
+
+// .navbar_login_section{
+//     display: flex;
+//     align-items: center;
+//     position: unset;
+    
+    
+    
+//     .hostbtn , .langbtn{
+//         border-radius: 50px;
+//         text-transform: inherit;
+//         padding: 10px 15px 10px 15px;
+//         font-weight:500;
+        
+//         font-size: 18px;
+//         margin-right: 5px;
+//     }
+//     .signin{
+    
+//         border: 1px solid rgb(212, 212, 212);
+//         border-radius: 80px; 
+//         padding-left: 20px;
+//         height: 65px;   
+//         max-width: fit-content;
+//         .signin_avatar{
+//             font-size: 4em;
+//             padding-left: 10px;
+//         } 
+//         &:hover{
+//             transition: box-shadow 200ms   ease-in;
+//             box-shadow: 2px 2px 5px 1px rgb(212, 212, 212);
+//             cursor: pointer;
+        
+//         }
+//     }
+ 
+    
+
+// }
+// }
+
+// .navbar_search:hover{
+//         transition: box-shadow 200ms   ease-in;
+//         box-shadow: 2px 2px 5px 1px rgb(212, 212, 212);
+//         cursor: pointer;
+    
+// }
+
+.navbar{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 100;
+    padding: 0.8em;
+    box-shadow: 1px 1px 10px 1px lightgray;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255);
+    .logo_section{
+                font-family: 'Devonshire', cursive;
+                
+                p{
+                    font-size: 40px;
+                    margin: 0;
+                    color: #FF385C;
+                    letter-spacing: 3.5px;
+                }
+            }
+            .brand_logo{
+                // object-fit: contain;
+                // cursor: pointer;
+            // height: 80px;
+           
+            
+            }
+            .middle_section{
+                .navbar_search {
+                    display: flex;
+                    align-items: center;
+            
+                border: 1px solid rgb(212, 212, 212);
+                border-radius: 80px; 
+                padding-left: 20px;
+                height: 60px;   
+                max-width: fit-content;  
+                input{
+                    width: 300px;
+                    height: 40px;
+                    border: none;
+                    outline: none;
+                    font-size: 20px;
+                    background-color:transparent;
+                    font-weight: 600;
+                    color: black;
+                }
+                .search_section{
+                    background-color: #FF385C;
+                    margin-right:10px ;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+             
+                    padding: 10px;
+                    .searchIcon{
+                        color: white;
+                    }
+                }
+            }
+
+            }
+            
+
+    nav{
+        .signin{
+    
+                    border: 1px solid rgb(212, 212, 212);
+                    border-radius: 80px; 
+                    padding-left: 10px;
+                    height: 50px;   
+                    max-width: fit-content;
+                    .signin_avatar{
+                        font-size: 3em;
+                        padding-left: 10px;
+                    } 
+                    &:hover{
+                        transition: box-shadow 200ms   ease-in;
+                        box-shadow: 2px 2px 5px 1px rgb(212, 212, 212);
+                        cursor: pointer;
+                    
+                    }
+                }
+
+
+            
+        
+    }
+}
+
+
+.dropdown_menu{
+    height: 20vh;
+    width: 100%;
+    z-index: 1001 ;
+    position: fixed;
+    top: 50px;
+    right: 0;
+
+    margin-right: 20px;
+    margin-top: 30px;
+    background-color:  whitesmoke;
+    width: 20em;
+    color: white;
+    height: 50vh;
+    border-radius: 20px;
+
+
+    .dropdown_items{
+    
+
+        margin-top: 40px;
+        
+        
+        a{
+       
+            
+    
+            display: block;
+            height: 10%;
+            margin-bottom: 10px;
+            font-size: 20px;
+           
+            padding: .8em;
+            cursor: pointer;
+            
+        
+           &:hover{
+               background-color: lightgray;
+           }
+        }
+        
+    color: black;
+    }
+}
+
+.hide{
+    display: none;
+}
+
+
+@media only screen and (max-width:768px){
+  
+    .middle_section{
+        background-color: #FF385C;
+        display: none;
+    }
+
+    nav{
+        .sign{
+            
+        }
+    }
+}
+
+@media only screen and (min-width:400px){
+// .dropdown_menu{
+//    max-width: 20%;
+// }
+}

@@ -1,0 +1,39 @@
+{
+    "features":[
+        {
+        "id":"800",
+        "img":"https://media-cdn.tripadvisor.com/media/photo-s/11/bc/97/7c/kampala-serena-hotel.jpg",
+        "title":"Accomodation",
+      
+              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nobis ut placeat, magni id quam quia natus, illo fugit dignissimos reiciendis consequuntur."
+        
+        },
+        {
+        "id":"801",
+        "img":"https://www.treadright.org/wp-content/uploads/2019/02/wildlife-page.jpg",
+        "title":"Game Parks",
+      
+              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nobis ut placeat, magni id quam quia natus, illo fugit dignissimos reiciendis consequuntur."
+        
+        },
+        {
+        "id":"802",
+        "img":"https://www.nkuringosafaris.com/wp-content/uploads/2018/10/whitewater-rafting-nile-uganda-1200x675.jpg",
+        "title":"Leisure / Trips",
+      
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nobis ut placeat, magni id quam quia natus, illo fugit dignissimos reiciendis consequuntur."
+        
+        },
+        {
+        "id":"803",
+        "img":"https://guide2uganda.ug/wp-content/uploads/2019/01/Guvnor-1.jpg",
+        "title":"Clubs",
+      
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nobis ut placeat, magni id quam quia natus, illo fugit dignissimos reiciendis consequuntur."
+        
+        }
+
+    ]
+    
+    
+}
